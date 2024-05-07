@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @Table(name = "booking")
 public class Booking {
     @Id
-    @Column(name = "booking_number", nullable = false, length = 20)
+    @Column(name = "booking_number", nullable = false, length = 500)
     private String bookingNumber;
 
     @Column(name = "bus_number", nullable = false, length = 10)
